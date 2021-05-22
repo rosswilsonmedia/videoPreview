@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+    padding: 2em;
+    font-size: 350%;
+    color: black
+}
+.videoContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+video {
+    width: 30%;
+    min-width: 360px;
+    height: auto;
+    margin-bottom: 5em;
+}
